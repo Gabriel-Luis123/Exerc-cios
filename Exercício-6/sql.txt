@@ -1,0 +1,17 @@
+CREATE DATABASE catalogo;
+USE catalogo;
+
+CREATE TABLE produtos (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	nome VARCHAR(100),
+	preco DECIMAL(10,2)
+);
+
+
+--- Você pode inserir alguns produtos de teste:
+INSERT INTO produtos (nome, preco) VALUES
+('Teclado Mecânico', 350.00),
+('Mouse Gamer', 120.00),
+('Monitor 24"', 890.00);
+
+
