@@ -11,5 +11,5 @@ if(method_exists($controller, $acao)){
 } else {
     echo "Ação inválida!";
 }
-
+wdadadwad
 ?>
